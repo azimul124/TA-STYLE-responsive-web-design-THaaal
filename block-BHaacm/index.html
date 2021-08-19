@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 01-Responsive Web Design</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b4a51b7317.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container">
+        <nav class="flex justify-between item-center column">
+          <a class="brand" href="#"
+            ><img src="assets/logo.png" alt="Brabd Logo"
+          /></a>
+
+          <ul class="flex item-center">
+            <li class="nav-list">
+              <a href="">Home</a>
+            </li>
+            <li class="nav-list">
+              <a class="active" href="">Blog</a>
+            </li>
+            <li class="nav-list">
+              <a href="">about</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="padding hero">
+        <article class="container flex justify-between item-center wrap">
+          <div class="flex-48 flex-100 order-1">
+            <h1 class="heading">What is lorem ipsum?</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              nesciunt temporibus velit quaerat nam, consequatur dolor aut quae
+              fugit earum enim itaque, provident esciunt temporibus velit
+              quaerat nam, consequatur dolor aut quae fugit earum enim itaque
+              natus fugiat perferendis! Omnis quod dolorum at!
+            </p>
+            <a class="btn" href="#">read more</a>
+          </div>
+          <div class="flex-48 flex-100">
+            <img class="width-full" src="assets/01.png" alt="01" />
+          </div>
+        </article>
+      </section>
+      <!-- Blog -->
+      <section class="padding blog">
+        <div class="container">
+          <h2 class="heading text-center">our blog</h2>
+          <div class="flex justify-between wrap">
+            <article class="flex-30 flex-100">
+              <div>
+                <img class="width-full" src="assets/02.png" alt="02" />
+              </div>
+
+              <h3 class="heading-secondary">Why do we use it?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                doloribus odio esse beatae quibusdam quia alias repellendus,
+                numquam molestias nostrum!
+              </p>
+              <a class="btn" href="#">read more</a>
+            </article>
+            <article class="flex-30 flex-100">
+              <div>
+                <img class="width-full" src="assets/03.png" alt="03" />
+              </div>
+
+              <h3 class="heading-secondary">Where does it come from?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                doloribus odio esse beatae quibusdam quia alias repellendus,
+                numquam molestias nostrum!
+              </p>
+              <a class="btn" href="#">read more</a>
+            </article>
+            <article class="flex-30 flex-100">
+              <div>
+                <img class="width-full" src="assets/04.png" alt="04" />
+              </div>
+
+              <h3 class="heading-secondary">Where can I get some?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                doloribus odio esse beatae quibusdam quia alias repellendus,
+                numquam molestias nostrum!
+              </p>
+              <a class="btn" href="#">read more</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container flex justify-between item-center column">
+        <small>&copy;AltCampus</small>
+        <nav>
+          <a href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
